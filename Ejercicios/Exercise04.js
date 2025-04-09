@@ -11,12 +11,15 @@
 // Usa una estructura if para verificar si el personaje puede mejorar su habilidad.
 // Muestra la habilidad mejorada si se cumplen las condiciones.
 
-let personaje = "Mago";
-let xp = 100;
-let xpRequerido = 50;
 
-prompt("Cuantos años tienes?");
+let personaje = "Arquero";
+let xp = 100;
+let xpRequerido = 40;
+
 if (xp >= xpRequerido) {
-    personaje = "Guerrero";
+    personaje = "Mago";
     console.log("El personaje ha mejorado a " + personaje);
+} else {
+    console.log("El personaje no ha mejorado");
 }
+
