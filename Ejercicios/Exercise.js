@@ -29,4 +29,4 @@ if (usuario === "Normal") {
 
 let totalPagar = precioProducto - (precioProducto * descuento); // Calculo total
 console.log(`El total a pagar para el usuario ${usuario} es: $${totalPagar}`);
-``
+

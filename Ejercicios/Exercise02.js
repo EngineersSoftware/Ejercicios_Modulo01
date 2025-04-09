@@ -11,7 +11,7 @@
 // Aplica el descuento correspondiente según la categoría del usuario.
 // Calcula y muestra el total a pagar.
 
-let usuario = "Estudiante";
+let usuario = "VIP";
 let precioProducto = [50,30,20,100];
 let descuento = 0;
 let totalPrecios = 0;
